@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="374dp"
+    android:layout_height="match_parent"
+    tools:context=".Donasi"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Anda"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/InputNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat Email"
+        android:layout_marginTop="@dimen/activity_horizontal_layout"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"/>
+
+    <EditText
+        android:id="@+id/InputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Donasi"
+        android:layout_marginTop="@dimen/activity_horizontal_layout"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"/>
+
+    <EditText
+        android:id="@+id/InputDonasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Catatan"
+        android:layout_marginTop="@dimen/activity_horizontal_layout"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"/>
+
+    <EditText
+        android:id="@+id/InputCatatan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:scrollbars="vertical"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"
+        android:background="@drawable/border"/>
+
+    <Button
+        android:id="@+id/btnbayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pembayaran"
+        android:layout_marginRight="@dimen/activity_horizontal_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_layout"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editCity" type="id" />
+    <item name="progressBar" type="id" />
+    <item name="btnCity" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="progress_bar" type="id" />
+    <item name="recycleView" type="id" />
+    <item name="txtKota" type="id" />
+    <item name="txtTemp" type="id" />
+    <item name="txtDesc" type="id" />
+</resources>
