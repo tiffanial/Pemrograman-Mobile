@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="#F2FFC0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/tiffani"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/tiffani" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:text="Tiffani Afiollalia Lorenza"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/volkszeitung"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="35dp">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ig"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="tifffanial"
+                android:textSize="25sp"
+                android:fontFamily="@font/volkszeitung"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/tw"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="tiffanial"
+                android:textSize="25sp"
+                android:fontFamily="@font/volkszeitung"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_email_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="tiffaniafiollalialorenza@gmail.com"
+                android:textSize="25sp"
+                android:fontFamily="@font/volkszeitung"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
