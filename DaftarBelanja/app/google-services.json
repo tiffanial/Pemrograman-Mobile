@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "498558832406",
+    "firebase_url": "https://daftar-belanja-harian-88534.firebaseio.com",
+    "project_id": "daftar-belanja-harian-88534",
+    "storage_bucket": "daftar-belanja-harian-88534.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498558832406:android:ed3aaa6d39b0ce2ac84a37",
+        "android_client_info": {
+          "package_name": "fafa.net.daftarbelanja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498558832406-d97vg0i87bv3jtmt4gpiv3r2miih6272.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD5Dnt6A3BYVJXzQs-Xd0raRr5mjGo4FE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498558832406-d97vg0i87bv3jtmt4gpiv3r2miih6272.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
